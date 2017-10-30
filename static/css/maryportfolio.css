@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Cartoonist;
+    src: url(/fonts/Cartoonist/Cartoonist_Kooky.ttf);
+}
+
+@font-face {
+    font-family: MissionGothicRegular;
+    src: url(/fonts/MissionGothic/Mission Gothic Regular.otf);
+}
+
+@font-face {
+    font-family: MissionGothicBold;
+    src: url(/fonts/MissionGothic/Mission Gothic Bold.otf);
+}
+
+
+/* Navbar Override */
+.container-navbar {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar-default {
+    background-color: transparent;
+}
+
+.navbar-fixed-top.navbar-shrink {
+    background-color: dimgray;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 0px;
+    font-size: 19px;
+    line-height: 21px;
+    height: 60px;
+}
+
+.mary-navlinks {
+    padding-top: 12px;
+}
+
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand {
+        font-size: 2em;
+    }
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 2em;
+    color: #fff200;
+    text-shadow: 4px 4px #000000;
+    margin-left: 50px;
+    font-family: Cartoonist;
+}
+
+/* Header Override */
+.mary-header {
+    background-image: url(/img/dinooo.png);
+}
+
+@media (min-width: 768px) {
+    header .container {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+}
+
+.mary-header-intro {
+    font-family: Cartoonist;
+    font-size: 80px;
+    color: #FFFFF0;
+    text-shadow: 6px 6px #000000;
+    border-color: #000000;
+}

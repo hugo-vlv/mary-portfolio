@@ -3,21 +3,16 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>{{ with .Site.Params.about.title }}{{.}}{{ end }}</h2>
-                <hr class="star-light">
+                <h2>About Me</h2>
             </div>
         </div>
     <div class="row">
         <div class="col-lg-4 col-lg-offset-2">
-            <p>{{ with .Site.Params.about.left }}{{ . | markdownify }}{{ end }}</p>
+            <img src="/img/mary-01.png" class="img-responsive" alt="Responsive image">
         </div>
             <div class="col-lg-4">
-                <p>{{ with .Site.Params.about.right }}{{ . | markdownify }}{{ end }}</p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="{{ with .Site.Params.about.button.link }}{{.}}{{ end }}" class="btn btn-lg btn-outline">
-                    <i class="fa fa-{{ with .Site.Params.about.button.icon }}{{.}}{{end}}"></i> {{ with .Site.Params.about.button.text }}{{ . }}{{ end }}
-                </a>
+                <p>Moi ? C'est Mary. 22 ans, Issue d'un bac scientifique et d'un an en fac de biologie, j'ai décidé de rejoindre l'ESDAC à Aix en Provence en 2014. Actuellement en BTS Design graphique option communication et Médias numériques, je fais beaucoup d'illustrations et d'animations. Le dessin à toujours été une grande passion pour moi et j'aimerai en faire mon métier.
+                </p>
             </div>
         </div>
     </div>
