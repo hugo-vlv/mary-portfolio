@@ -1,16 +1,16 @@
 @font-face {
     font-family: Cartoonist;
-    src: url(/fonts/Cartoonist/Cartoonist_Kooky.ttf);
+    src: url(../fonts/Cartoonist/Cartoonist_Kooky.ttf);
 }
 
 @font-face {
     font-family: MissionGothicRegular;
-    src: url(/fonts/MissionGothic/Mission Gothic Regular.otf);
+    src: url(../fonts/MissionGothic/Mission Gothic Regular.otf);
 }
 
 @font-face {
     font-family: MissionGothicBold;
-    src: url(/fonts/MissionGothic/Mission Gothic Bold.otf);
+    src: url(./fonts/MissionGothic/Mission Gothic Bold.otf);
 }
 
 
@@ -58,7 +58,7 @@
 
 /* Header Override */
 .mary-header {
-    background-image: url(/img/dinooo.png);
+    background-image: url(../img/dinooo.png);
 }
 
 @media (min-width: 768px) {
