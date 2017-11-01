@@ -1,5 +1,5 @@
 {
-  "baseurl": "https://example.org/",
+  "baseurl": "",
   "languageCode": "en-us",
   "title": "Mary",
   "theme": "hugo-freelancer-theme",
@@ -70,7 +70,21 @@
         ]
       },
       "social": {
-        "title": "Around the web"
+        "title": "Find me on",
+        "networks": [
+          {
+            "icon": "fa-instagram",
+            "link": "//stackoverflow.com/questions/tagged/hugo"
+          },
+          {
+            "icon": "fa-facebook",
+            "link": "kek"
+          },
+          {
+            "icon": "fa-linkedin",
+            "link": "okek"
+          }
+        ]
       },
       "credits": {
         "title": "About Freelancer",
@@ -81,10 +95,20 @@
   "[params": {
     "footer": {
       "social": {
-        "networks": {
-          "icon": "fa-stack-overflow",
-          "link": "//stackoverflow.com/questions/tagged/hugo"
-        }
+        "networks": [
+          {
+            "icon": "fa-stack-overflow",
+            "link": "//stackoverflow.com/questions/tagged/hugo"
+          },
+          {
+            "icon": "fa-stack-overflow",
+            "link": "kek"
+          },
+          {
+            "icon": "fa-stack-overflow",
+            "link": "okek"
+          }
+        ]
       }
     }
   }
